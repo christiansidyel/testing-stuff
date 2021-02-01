@@ -5,9 +5,10 @@ agent:
     type: e1-standard-2
     os_image: ubuntu1804
 blocks:
-  - name: 'Block 2'
+  - name: Block 2
     task:
       jobs:
         - name: 'Job #1'
           commands:
             - checkout
+            - echo 'werks'
